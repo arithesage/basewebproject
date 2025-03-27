@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        
+        <title>Hello world!</title>
+
+        <link rel="stylesheet/less"
+              type="text/css" 
+              href="styles/index.less" />
+
+        <!-- LESS is included by default for allowing some cool features
+             for CSS styleshets, like composition (that is, creating
+             some basic general styles and then one that include some
+             or all of them).
+             
+             If you want to use LESS styles, your stylesheets must
+             have .less extension, instead of usual .css one.-->
+
+        <!-- This first script block sets options that will be used
+             by LESS. Needs to be BEFORE the script block that loads LESS.-->
+        <script>
+            less = 
+            {
+                async: true
+            };
+        </script>
+
+        <!--This script block loads LESS.-->
+        <script src="js/less.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <div class="panel" style="width: 320px; height: 240px;">
+
+        </div>
+    </body>    
+</html>
